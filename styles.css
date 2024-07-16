@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*  */
+main {
+  border: solid;
+  width: 72.5%;
+  display: inline-block;
+  transform: translate(20%);
+  column-count: 3;
+
+  .rosterBio {
+    background-color: rgb(235, 254, 251);
+    border: solid 23px gray;
+    display: inline-block;
+    flex-direction: column;
+    padding: 10%;
+    border-radius: 19%;
+    margin: 5% 5% 10% 5%;
+
+    #name {
+      font-weight: 600;
+      font-size: 500%;
+    }
+
+    #breed {
+      font-size: 350%;
+    }
+    #status {
+      font-size: 350%;
+    }
+    #teamId {
+      font-size: 350%;
+    }
+    #id {
+      font-size: 350%;
+    }
+
+    #bio {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    il {
+      text-align: center;
+    }
+
+    #puppyImage {
+      max-width: 100%;
+      border-radius: 50px;
+    }
+  }
+
+  #buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    font-size: 60px;
+    margin: 20px;
+    padding: 2%;
+    border-radius: 8%;
+  }
+}
+
+#form {
+  border: solid 10px pink;
+
+  .form-control {
+    width: 1000px;
+    font-size: 600%;
+    border: solid 10px pink;
+    margin: 0.2%;
+    border-radius: 20px;
+    padding: 0.2%;
+  }
+
+  .URL {
+    width: 1800px;
+    font-size: 600%;
+    border: solid 10px pink;
+    margin: 0.2%;
+    border-radius: 20px;
+    padding: 0.2%;
+  }
+}
